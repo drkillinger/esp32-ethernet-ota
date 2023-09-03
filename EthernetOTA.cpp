@@ -5,7 +5,7 @@
 #include <Ethernet.h>
 //#include <WiFiUdp.h>
 #include "EthernetOTA.h"
-//#include "ESPmDNS.h" //ESP is broken, has hardcoded dependencies to Wifi, makes me sad
+//#include "ESPmDNS.h" //ESP is broken, has hardcoded depends on Wifi
 #include <EthernetBonjour.h> // https://github.com/TrippyLighting/EthernetBonjour
 #include "MD5Builder.h"
 #include "Update.h"
